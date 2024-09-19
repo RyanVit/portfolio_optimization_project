@@ -30,7 +30,7 @@ O objetivo deste projeto é fornecer uma ferramenta que auxilie investidores a o
 ---
 
 ## Exemplo de Uso
-### Entrada do usuiario
+### Entrada do usuário
 Ao executar o script, o usuário será solicitado a inserir os tickers das ações e o intervalo de datas:
 
 Digite os tickers das ações separados por vírgula (ex. AAPL, MSFT, GOOGL): AAPL, MSFT, GOOGL
