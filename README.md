@@ -33,9 +33,11 @@ O objetivo deste projeto é fornecer uma ferramenta que auxilie investidores a o
 ### Entrada do usuário
 Ao executar o script, o usuário será solicitado a inserir os tickers das ações e o intervalo de datas:
 
-Digite os tickers das ações separados por vírgula (ex. AAPL, MSFT, GOOGL): AAPL, MSFT, GOOGL
-Digite a data inicial no formato YYYY-MM-DD: 2023-01-01
-Digite a data final no formato YYYY-MM-DD: 2023-12-31
+  1.Digite os tickers das ações separados por vírgula (ex. AAPL, MSFT, GOOGL): AAPL, MSFT, GOOGL
+  
+  2.Digite a data inicial no formato YYYY-MM-DD: 2023-01-01
+  
+  3.Digite a data final no formato YYYY-MM-DD: 2023-12-31
 
 ## Saída Esperada
 1.Pesos Otimizados para o Portfólio:
