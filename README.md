@@ -15,7 +15,6 @@ O objetivo deste projeto é fornecer uma ferramenta que auxilie investidores a o
 3. **Otimização de Portfólio**: Calcula a melhor distribuição de pesos para maximizar o retorno ajustado ao risco.
 4. **Visualização de Retornos**: Gera gráficos de desempenho do portfólio.
 
----
 
 ## Tecnologias Utilizadas
 
@@ -29,4 +28,29 @@ O objetivo deste projeto é fornecer uma ferramenta que auxilie investidores a o
   - `Logging`: Para rastrear a execução e erros.
 
 ---
+
+## Exemplo de Uso
+### Entrada do usuiario
+Ao executar o script, o usuário será solicitado a inserir os tickers das ações e o intervalo de datas:
+
+Digite os tickers das ações separados por vírgula (ex. AAPL, MSFT, GOOGL): AAPL, MSFT, GOOGL
+Digite a data inicial no formato YYYY-MM-DD: 2023-01-01
+Digite a data final no formato YYYY-MM-DD: 2023-12-31
+
+## Saída Esperada
+1.Pesos Otimizados para o Portfólio:
+Pesos Otimizados: {'AAPL': 0.22207971, 'MSFT': 0.21523553, 'GOOGL': 0.56268475}   
+
+2.Visualização de Retornos (Gráfico):
+O gráfico abaixo mostra os retornos cumulativos do portfólio com os pesos otimizados:
+![image](https://github.com/user-attachments/assets/6f1e6ce3-de04-43b9-8901-38602ea6622f)
+
+
+---
+
+## Estrutura do Banco de Dados
+Os dados coletados para cada ação serão salvos em tabelas separadas no banco de dados PostgreSQL. A estrutura das tabelas segue o padrão abaixo:
+
+Exemplo de Tabela AAPL_data:
+![image](https://github.com/user-attachments/assets/11aa76d0-ec44-42b1-82f7-cf08a88021ad)
 
