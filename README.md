@@ -43,6 +43,7 @@ Pesos Otimizados: {'AAPL': 0.22207971, 'MSFT': 0.21523553, 'GOOGL': 0.56268475}
 
 2.Visualização de Retornos (Gráfico):
 O gráfico abaixo mostra os retornos cumulativos do portfólio com os pesos otimizados:
+
 ![image](https://github.com/user-attachments/assets/6f1e6ce3-de04-43b9-8901-38602ea6622f)
 
 
@@ -52,5 +53,6 @@ O gráfico abaixo mostra os retornos cumulativos do portfólio com os pesos otim
 Os dados coletados para cada ação serão salvos em tabelas separadas no banco de dados PostgreSQL. A estrutura das tabelas segue o padrão abaixo:
 
 Exemplo de Tabela AAPL_data:
+
 ![image](https://github.com/user-attachments/assets/11aa76d0-ec44-42b1-82f7-cf08a88021ad)
 
